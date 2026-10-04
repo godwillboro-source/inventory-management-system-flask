@@ -175,3 +175,6 @@ def import_item():
     }
     inventory.append(new_item)
     return jsonify(new_item), 201
+
+if __name__ == "__main__":
+    app.run(debug=True)
